@@ -4,7 +4,7 @@ A curated collection of papers, methods, and benchmarks on **post-training and p
 
 > **Research question:** After pretraining, how can an embodied foundation policy acquire more reliable task skills through demonstrations, preferences, rewards, real-world interaction, simulation, and combinations of these training regimes?
 
-**Core taxonomy:** **Training Paradigm × Learning Signal**. **Focus:** robotic manipulation and VLA post-training, with pertinent work on navigation, mobile manipulation, and dexterous control. **Literature cutoff:** October 28, 2026.
+**Core taxonomy:** **Training Paradigm × Learning Signal**. **Focus:** robotic manipulation and VLA post-training, with pertinent work on navigation, mobile manipulation, and dexterous control.
 
 ## Contents
 
