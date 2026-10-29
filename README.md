@@ -1,10 +1,12 @@
-**Post-Training for Embodied AI: A Survey**
+**Post-Training for Embodied Artificial Intelligence: A Comprehensive Survey**
 
 A curated collection of papers, methods, and benchmarks on **post-training and policy improvement for embodied AI**, emphasizing **vision-language-action (VLA) models**, robot manipulation, and related embodied policies.
 
 > **Research question:** After pretraining, how can an embodied foundation policy acquire more reliable task skills through demonstrations, preferences, rewards, real-world interaction, simulation, and combinations of these training regimes?
 
 **Core taxonomy:** **Training Paradigm × Learning Signal**. **Focus:** robotic manipulation and VLA post-training, with pertinent work on navigation, mobile manipulation, and dexterous control.
+
+**Literature coverage:** 67 distinct arXiv-linked papers in this curated README, including 19 source-checked new entries from the October 2026 sweep (one already appeared elsewhere). An additional [79-paper screening queue](literature/screening_queue_2026-10.md) is maintained separately and is **not** counted as verified post-training literature. The manuscript [taxonomy figure](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/figs/fig-2_Taxonomy-Tree.tex) cites 75 method studies; its [bibliography](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/references.bib) contains 127 records including foundations, benchmarks and adjacent research.
 
 ## Contents
 
