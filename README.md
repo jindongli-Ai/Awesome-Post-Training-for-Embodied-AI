@@ -6,7 +6,7 @@ A curated collection of papers, methods, and benchmarks on **post-training and p
 
 **Core taxonomy:** **Training Paradigm × Learning Signal**. **Focus:** robotic manipulation and VLA post-training, with pertinent work on navigation, mobile manipulation, and dexterous control.
 
-**Literature coverage:** 67 distinct arXiv-linked papers in this curated README, including 19 source-checked new entries from the October 2026 sweep (one already appeared elsewhere). An additional [79-paper screening queue](literature/screening_queue_2026-10.md) is maintained separately and is **not** counted as verified post-training literature. The manuscript [taxonomy figure](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/figs/fig-2_Taxonomy-Tree.tex) cites 75 method studies; its [bibliography](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/references.bib) contains 127 records including foundations, benchmarks and adjacent research.
+**Literature coverage:** 73 distinct arXiv-linked papers in this curated README, including 28 source-checked paper entries from the October 2026 sweeps (two were already listed elsewhere). An additional [79-paper screening queue](literature/screening_queue_2026-10.md) is maintained separately and is **not** counted as verified post-training literature. The manuscript [taxonomy figure](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/figs/fig-2_Taxonomy-Tree.tex) cites 81 method studies; its [bibliography](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/references.bib) contains 134 records including foundations, benchmarks and adjacent research.
 
 ## Contents
 
@@ -463,6 +463,21 @@ This extension cross-checks candidate titles against their original arXiv abstra
 The linked papers above were inspected at the abstract level. Full-text mechanism and experiment checks remain necessary before submission. This section does not treat every paper in a broader VLA collection as a post-training policy-update method.
 
 ---
+
+### Further 2026 Methods — Real-World RL and Virtual Experience
+
+Additional source-screened papers emphasizing real-robot online RL, simulated policy improvement, and structured rewards. World-Env was already listed elsewhere in this repository and is cross-referenced here for its mechanism.
+
+- **BEE** (2026): [BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models](https://arxiv.org/abs/2609.27450). Residual RL under human-correction consistency constraints.
+- **StructRL** (2026): [StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks](https://arxiv.org/abs/2609.36352). Simulated online RL with prerequisite-aware subtask rewards.
+- **World-Env** (2025): [World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training](https://arxiv.org/abs/2509.24948). Video-world simulator with VLM progress and termination feedback.
+- **RL-Token** (2026): [RL Token: Bootstrapping Online RL with Vision-Language-Action Models](https://arxiv.org/abs/2604.23073). Real-robot actor-critic refinement using pretrained VLA features.
+- **VLA-Precision** (2026): [VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models](https://arxiv.org/abs/2609.04355). Intervention and preference-calibrated online RL for precise manipulation.
+- **Uncertainty-Gated-RL** (2026): [Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy](https://arxiv.org/abs/2609.28838). Exploration noise regulation; no gain over behavior cloning in tested budget.
+
+**Related test-time boundary (not counted as core post-training):**
+
+- **T2VLA** (2026): [Trust Your Instincts: Confidence-Driven Test-Time RL for Vision-Language-Action Models](https://arxiv.org/abs/2606.29892). Confidence-guided test-time policy update; cross-over with test-time methods.
 
 ## 10. Contributing and Citation
 
