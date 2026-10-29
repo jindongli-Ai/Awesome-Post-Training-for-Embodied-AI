@@ -17,6 +17,7 @@ A curated collection of papers, methods, and benchmarks on **post-training and p
 - [7. Benchmarks and Evaluation](#7-benchmarks-and-evaluation)
 - [8. Open Challenges](#8-open-challenges)
 - [9. Related Collections and Surveys](#9-related-collections-and-surveys)
+- [October 2026 Literature Expansion](#october-2026-literature-expansion--primary-source-checked)
 - [10. Contributing and Citation](#10-contributing-and-citation)
 
 ## 1. Scope and Definitions
@@ -400,6 +401,66 @@ These are **curated repositories, not research papers**.
    [[arXiv]](https://arxiv.org/abs/2609.09250)
 
 The current collection emphasizes the **training regime × learning signal** view across supervised, preference-based, and reward-based policy improvement, while the surveys above take complementary ability-centric, architecture-centric, efficiency-centric, driving-centric, or verifier-centric perspectives.
+
+## October 2026 Literature Expansion — Primary-Source Checked
+
+This extension cross-checks candidate titles against their original arXiv abstract pages. **Core** entries are grouped by the dominant persistent policy-update mechanism. Fixed synthetic demonstrations are classified as offline data; interactive simulation requires policy-conditioned virtual rollouts. The full screening record and BibTeX keys are [available in the manuscript repository](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/literature/verified_additions_2026-10.json).
+
+### Offline — Demonstration Fine-Tuning
+
+- **CLIP-RT** (2025, RSS): [Learning Language-Conditioned Robotic Policies from Natural Language Supervision](https://arxiv.org/abs/2411.00508). Offline imitation fine-tuning using natural-language motion supervision.
+- **DemoGen** (2025): [DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning](https://arxiv.org/abs/2502.16932). Fixed synthetic demonstration augmentation, not interactive simulator RL.
+- **InstructVLA** (2025): [InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation](https://arxiv.org/abs/2507.17520). Instruction tuning combines multimodal reasoning and action learning.
+- **RoboTron-Platter** (2025): [Boosting Robotic Manipulation Generalization with Minimal Costly Data](https://arxiv.org/abs/2503.19516). Stage-divided data mixing for VLA generalization.
+- **THAW-VLA** (2026): [Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies](https://arxiv.org/abs/2609.24682). Fixed-frame offline world-model feature alignment.
+- **VOTE** (2025): [VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting](https://arxiv.org/abs/2507.05116). Fine-tuning for faster action tokens; inference voting separate.
+- **PALM** (2026, CVPR): [PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2601.07060). Training with affordance and within-subtask progress cues.
+
+### Offline — Preference Optimization
+
+- **VTLA** (2025): [VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation](https://arxiv.org/abs/2505.09577). Direct preference optimization for tactile VLA insertion.
+
+### Offline — Offline RL
+
+- **ReinboT** (2025): [ReinboT: Amplifying Robot Visual-Language Manipulation with Reinforcement Learning](https://arxiv.org/abs/2505.07395). Offline return-aware policy optimization from mixed-quality data.
+
+### Real-World — Interactive Imitation
+
+- **RoboCopilot** (2025): [RoboCopilot: Human-in-the-loop Interactive Imitation Learning for Robot Manipulation](https://arxiv.org/abs/2503.07771). Human-autonomy switching for interactive imitation learning.
+- **VLA-Expert** (2025): [VLA Model-Expert Collaboration for Bi-directional Manipulation Learning](https://arxiv.org/abs/2503.04163). Expert-assisted collaboration and collected experience for refinement.
+
+### Real-World — Online RL
+
+- **Res-HIL** (2026): [Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation](https://arxiv.org/abs/2609.30023). Human-guided online residual RL on frozen imitation priors.
+
+### Simulation — Policy Distillation
+
+- **RPD** (2026, IROS): [Refined Policy Distillation: From VLA Generalists to RL Experts](https://arxiv.org/abs/2503.05833). On-policy simulated RL guided by a pretrained VLA teacher. *(Already listed earlier in this collection.)*
+
+### Simulation — Simulator RL
+
+- **RFTF** (2025): [RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback](https://arxiv.org/abs/2505.19767). Temporal value-model rewards for embodied RL fine-tuning.
+- **TGRPO** (2025): [Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization](https://arxiv.org/abs/2506.08440). Trajectory-grouped RL with dense task feedback on LIBERO.
+- **Action-Chunked-PPO** (2025): [VLA Model Post-Training via Action-Chunked PPO and Self Behavior Cloning](https://arxiv.org/abs/2509.25718). PPO and dynamically collected self demonstrations on MetaWorld.
+- **RL4VLA** (2025, NeurIPS): [What Can RL Bring to VLA Generalization? An Empirical Study](https://arxiv.org/abs/2505.19789). PPO fine-tuning recipe and generalization comparison.
+
+### Simulation — World-Model Rollouts
+
+- **WISE** (2026): [WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models](https://arxiv.org/abs/2609.03681). Bounded and scheduled imagined rollouts to refine policy outputs.
+
+### Cross-Regime — Offline-to-Online
+
+- **Q-Chunking** (2025, NeurIPS): [Reinforcement Learning with Action Chunking](https://arxiv.org/abs/2507.07969). Offline-to-online temporal-difference RL in chunked action spaces.
+
+### Supporting and Boundary Literature
+
+- **AMF** (2024): [Active Fine-Tuning of Multi-Task Policies](https://arxiv.org/abs/2410.05026). Active expert-demonstration selection; no physical loop assumed.
+- **ADC** (2025): [Adversarial Data Collection: Human-Collaborative Perturbations for Efficient and Robust Robotic Imitation Learning](https://arxiv.org/abs/2503.11646). Human-in-the-loop data construction without proof of policy-loop interaction.
+- **Robot-R1** (2025): [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://arxiv.org/abs/2506.00070). Embodied reasoning RL, not direct persistent VLA motor-policy training.
+
+The linked papers above were inspected at the abstract level. Full-text mechanism and experiment checks remain necessary before submission. This section does not treat every paper in a broader VLA collection as a post-training policy-update method.
+
+---
 
 ## 10. Contributing and Citation
 
