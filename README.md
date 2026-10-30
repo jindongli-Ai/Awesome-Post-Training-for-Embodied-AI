@@ -6,7 +6,7 @@ A curated collection of papers, methods, and benchmarks on **post-training and p
 
 **Core taxonomy:** **Training Paradigm × Learning Signal**. **Focus:** robotic manipulation and VLA post-training, with pertinent work on navigation, mobile manipulation, and dexterous control.
 
-**Literature coverage:** 112 distinct arXiv-linked papers in this curated README (plus this expansion's ACL 2026 paper), with core and supporting/boundary records distinguished. Previous coverage: 73 distinct arXiv-linked papers, including 28 source-checked paper entries from the October 2026 sweeps (two were already listed elsewhere). An additional [79-paper screening queue](literature/screening_queue_2026-10.md) is maintained separately and is **not** counted as verified post-training literature. The manuscript [taxonomy figure](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/figs/fig-2_Taxonomy-Tree.tex) cites 81 method studies; its [bibliography](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/references.bib) contains 134 records including foundations, benchmarks and adjacent research.
+**Literature coverage:** Core post-training methods are organized by training paradigm and learning signal in Sections 3–6. Benchmarks, foundational studies, related work, and boundary cases appear in their respective thematic sections. The accompanying survey manuscript provides the [taxonomy figure](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/figs/fig-2_Taxonomy-Tree.tex) and [bibliography](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/references.bib).
 
 ## Contents
 
