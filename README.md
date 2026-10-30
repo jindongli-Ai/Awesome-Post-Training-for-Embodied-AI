@@ -120,6 +120,69 @@ Fine-tuning from demonstration actions/trajectories, including efficient action 
 3. 2026_arXiv_Anchor-Align_Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment.
    [[arXiv]](https://arxiv.org/abs/2607.13429)  [[Project]](https://anchoralignvla.github.io/)
 
+4. 2025_arXiv_CLIP-RT_Learning Language-Conditioned Robotic Policies from Natural Language Supervision
+   [[arXiv]](https://arxiv.org/abs/2411.00508) — Offline imitation fine-tuning using natural-language motion supervision.
+
+5. 2025_arXiv_DemoGen_DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning
+   [[arXiv]](https://arxiv.org/abs/2502.16932) — Fixed synthetic demonstration augmentation, not interactive simulator RL.
+
+6. 2025_arXiv_InstructVLA_InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation
+   [[arXiv]](https://arxiv.org/abs/2507.17520) — Instruction tuning combines multimodal reasoning and action learning.
+
+7. 2025_arXiv_RoboTron-Platter_Boosting Robotic Manipulation Generalization with Minimal Costly Data
+   [[arXiv]](https://arxiv.org/abs/2503.19516) — Stage-divided data mixing for VLA generalization.
+
+8. 2026_arXiv_THAW-VLA_Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies
+   [[arXiv]](https://arxiv.org/abs/2609.24682) — Fixed-frame offline world-model feature alignment.
+
+9. 2025_arXiv_VOTE_VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting
+   [[arXiv]](https://arxiv.org/abs/2507.05116) — Fine-tuning for faster action tokens; inference voting separate.
+
+10. 2026_arXiv_PALM_PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation
+   [[arXiv]](https://arxiv.org/abs/2601.07060) — Training with affordance and within-subtask progress cues.
+
+11. 2026_arXiv_OBEYED-VLA_Clutter-Robust Vision-Language-Action Models through Object-Centric and Geometry Grounding
+   [[arXiv]](https://arxiv.org/abs/2512.22519) — *Offline / Demonstration.* Pretrained VLA fine-tuned on grounded single-object demonstrations.
+
+12. 2026_arXiv_ChatVLA_ChatVLA: Unified Multimodal Understanding and Robot Control with Vision-Language-Action Model
+   [[arXiv]](https://arxiv.org/abs/2502.14420) — *Offline / Demonstration.* Phased alignment of multimodal understanding and robot control.
+
+13. 2026_arXiv_ChatVLA-2_ChatVLA-2: Vision-Language-Action Model with Open-World Embodied Reasoning from Pretrained Knowledge
+   [[arXiv]](https://arxiv.org/abs/2505.21906) — *Offline / Demonstration.* Two-stage reasoning and action training.
+
+14. 2026_arXiv_InSpire_InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning
+   [[arXiv]](https://arxiv.org/abs/2505.13888) — *Offline / Demonstration.* Spatial direction and action supervision.
+
+15. 2026_arXiv_VLAS_VLAS: Vision-Language-Action Model With Speech Instructions For Customized Robot Manipulation
+   [[arXiv]](https://arxiv.org/abs/2502.13508) — *Offline / Demonstration.* Speech-instruction and robot-action tuning.
+
+16. 2026_arXiv_ForceVLA_ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation
+   [[arXiv]](https://arxiv.org/abs/2505.22159) — *Offline / Demonstration.* Force-conditioned action-model adaptation.
+
+17. 2026_arXiv_3D-CAVLA_3D CAVLA: Leveraging Depth and 3D Context to Generalize Vision Language Action Models for Unseen Tasks
+   [[arXiv]](https://arxiv.org/abs/2505.05800) — *Offline / Demonstration.* Depth-augmented VLA fine-tuning.
+
+18. 2026_arXiv_CronusVLA_CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling
+   [[arXiv]](https://arxiv.org/abs/2506.19816) — *Offline / Demonstration.* Multi-frame post-training after single-frame pretraining.
+
+19. 2026_arXiv_SpatialVLA_SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model
+   [[arXiv]](https://arxiv.org/abs/2501.15830) — *Offline / Demonstration.* Adaptive action-grid fine-tuning.
+
+20. 2026_arXiv_HAMSTER_HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation
+   [[arXiv]](https://arxiv.org/abs/2502.05485) — *Offline / Demonstration.* VLM trajectory prediction fine-tuning for hierarchical robot control.
+
+21. 2026_arXiv_DexVLA_DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control
+   [[arXiv]](https://arxiv.org/abs/2502.05855) — *Offline / Demonstration.* Embodiment alignment followed by task post-training.
+
+22. 2026_arXiv_Xiaomi-Robotics-1_Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories
+   [[arXiv]](https://arxiv.org/abs/2607.15330) — *Offline / Demonstration.* Explicit post-training for embodiment and instruction alignment.
+
+23. 2026_arXiv_LLaVA-VLA_Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline
+   [[arXiv]](https://arxiv.org/abs/2602.22663) — *Offline / Demonstration.* Two-stage post-training and fine-tuning on CEBench.
+
+24. 2026_arXiv_Spatial-Traces_Spatial Traces: Enhancing VLA Models with Spatial-Temporal Understanding
+   [[arXiv]](https://arxiv.org/abs/2508.09032) — *Offline / Demonstration.* Spatial-temporal adaptation with limited training data.
+
 ### 3.2. Preference-Based Optimization
 
 Directly optimize action or trajectory preferences collected or constructed **before** the policy-improvement step. A world-model-based preference label does not automatically imply online world-model RL.
@@ -132,6 +195,9 @@ Directly optimize action or trajectory preferences collected or constructed **be
 
 3. 2026_arXiv_FlowPRO_FlowPRO: Reward-Free Reinforced Fine-Tuning of Flow-Matching VLAs via Proximalized Preference Optimization.
    [[arXiv]](https://arxiv.org/abs/2606.05468)
+
+4. 2025_arXiv_VTLA_VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation
+   [[arXiv]](https://arxiv.org/abs/2505.09577) — Direct preference optimization for tactile VLA insertion.
 
 ### 3.3. Offline Reinforcement Learning
 
@@ -147,6 +213,9 @@ Use logged transitions, value/advantage estimates, or model-provided scores to r
    [[arXiv]](https://arxiv.org/abs/2603.08519)
 
 ---
+
+4. 2025_arXiv_ReinboT_ReinboT: Amplifying Robot Visual-Language Manipulation with Reinforcement Learning
+   [[arXiv]](https://arxiv.org/abs/2505.07395) — Offline return-aware policy optimization from mixed-quality data.
 
 ## 4. Real-World Interactive Post-Training
 
@@ -169,6 +238,12 @@ Improve actions through robot rollouts, expert takeovers, intervention data, and
    [[arXiv]](https://arxiv.org/abs/2607.09776)
 
 **Placement note:** SOP instantiates more than one update algorithm (interactive imitation and RL). It appears here for its physical-world fleet learning loop rather than being duplicated in Section 4.3.
+
+5. 2025_arXiv_RoboCopilot_RoboCopilot: Human-in-the-loop Interactive Imitation Learning for Robot Manipulation
+   [[arXiv]](https://arxiv.org/abs/2503.07771) — Human-autonomy switching for interactive imitation learning.
+
+6. 2025_arXiv_VLA-Expert_VLA Model-Expert Collaboration for Bi-directional Manipulation Learning
+   [[arXiv]](https://arxiv.org/abs/2503.04163) — Expert-assisted collaboration and collected experience for refinement.
 
 ### 4.2. Human Feedback and Preference Optimization
 
@@ -196,6 +271,21 @@ Update a pretrained VLA using physical-world policy rollouts and feedback, such 
    [[arXiv]](https://arxiv.org/abs/2606.17043)
 
 ---
+
+5. 2026_arXiv_Res-HIL_Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation
+   [[arXiv]](https://arxiv.org/abs/2609.30023) — Human-guided online residual RL on frozen imitation priors.
+
+6. 2026_arXiv_BEE_BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2609.27450) — Residual RL under human-correction consistency constraints.
+
+7. 2026_arXiv_RL-Token_RL Token: Bootstrapping Online RL with Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2604.23073) — Real-robot actor-critic refinement using pretrained VLA features.
+
+8. 2026_arXiv_VLA-Precision_VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2609.04355) — Intervention and preference-calibrated online RL for precise manipulation.
+
+9. 2026_arXiv_Uncertainty-Gated-RL_Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy
+   [[arXiv]](https://arxiv.org/abs/2609.28838) — Exploration noise regulation; no gain over behavior cloning in tested budget.
 
 ## 5. Simulation-Based Post-Training
 
@@ -231,6 +321,24 @@ Use interaction in an executable physics simulator for reward-guided policy opti
 
 **Boundary note:** RIPT-VLA is framed as interactive post-training; it is placed here based on its simulation-centric reported optimization setting, not simply because its experiments contain simulation.
 
+6. 2025_arXiv_RFTF_RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback
+   [[arXiv]](https://arxiv.org/abs/2505.19767) — Temporal value-model rewards for embodied RL fine-tuning.
+
+7. 2025_arXiv_TGRPO_Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization
+   [[arXiv]](https://arxiv.org/abs/2506.08440) — Trajectory-grouped RL with dense task feedback on LIBERO.
+
+8. 2025_arXiv_Action-Chunked-PPO_VLA Model Post-Training via Action-Chunked PPO and Self Behavior Cloning
+   [[arXiv]](https://arxiv.org/abs/2509.25718) — PPO and dynamically collected self demonstrations on MetaWorld.
+
+9. 2025_arXiv_RL4VLA_What Can RL Bring to VLA Generalization? An Empirical Study
+   [[arXiv]](https://arxiv.org/abs/2505.19789) — PPO fine-tuning recipe and generalization comparison.
+
+10. 2026_arXiv_StructRL_StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks
+   [[arXiv]](https://arxiv.org/abs/2609.36352) — Simulated online RL with prerequisite-aware subtask rewards.
+
+11. 2026_arXiv_PAIR-VLA_What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models
+   [[arXiv]](https://arxiv.org/abs/2605.13105) — *Simulation / Reward.* PPO robustness fine-tuning with visual invariance and sensitivity.
+
 ### 5.3. World-Model-Based Policy Optimization
 
 Replace or augment interactive environment rollouts with learned imagined dynamics. The policy must be updated using newly generated simulated experience.
@@ -247,6 +355,9 @@ Replace or augment interactive environment rollouts with learned imagined dynami
 **Version note:** The 2025 preprint *World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training* (arXiv:2509.24948) and its 2026 CVPR version **RehearseVLA** are listed as **one research lineage**, not two independent methods.
 
 ---
+
+4. 2026_arXiv_WISE_WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2609.03681) — Bounded and scheduled imagined rollouts to refine policy outputs.
 
 ## 6. Cross-Regime Post-Training
 
@@ -270,6 +381,9 @@ Connect fixed-data initialization or offline value learning with subsequent poli
 
 **Note:** The listed methods differ in whether online interaction is conducted in the physical world or with additional auxiliary environments; consult the individual paper before comparing interaction budgets.
 
+5. 2025_arXiv_Q-Chunking_Reinforcement Learning with Action Chunking
+   [[arXiv]](https://arxiv.org/abs/2507.07969) — Offline-to-online temporal-difference RL in chunked action spaces.
+
 ### 6.2. Simulation-to-Real Co-Training
 
 Explicitly coordinate virtual experience and real-robot data to improve transferable policies, e.g., real-data anchoring during simulator RL.
@@ -291,6 +405,9 @@ Repeatedly discover useful trajectories or policy failures, distill new experien
    [[arXiv]](https://arxiv.org/abs/2609.19666)
 
 ---
+
+4. 2026_arXiv_Phoenix_Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction
+   [[arXiv]](https://arxiv.org/abs/2504.14588) — *Real-World / Continual.* Motion-based correction with interaction-driven lifelong learning.
 
 ## 7. Benchmarks and Evaluation
 
@@ -375,6 +492,94 @@ These items inform feedback reliability or data generation. They are **supportin
 
 ---
 
+4. 2024_arXiv_AMF_Active Fine-Tuning of Multi-Task Policies
+   [[arXiv]](https://arxiv.org/abs/2410.05026) — Active expert-demonstration selection; no physical loop assumed.
+
+5. 2025_arXiv_ADC_Adversarial Data Collection: Human-Collaborative Perturbations for Efficient and Robust Robotic Imitation Learning
+   [[arXiv]](https://arxiv.org/abs/2503.11646) — Human-in-the-loop data construction without proof of policy-loop interaction.
+
+6. 2025_arXiv_Robot-R1_Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics
+   [[arXiv]](https://arxiv.org/abs/2506.00070) — Embodied reasoning RL, not direct persistent VLA motor-policy training.
+
+7. 2026_arXiv_ManualVLA_ManualVLA: A Unified VLA Model for Chain-of-Thought Manual Generation and Robotic Manipulation
+   [[arXiv]](https://arxiv.org/abs/2512.02013) — *Planning / Synthetic.* Synthetic manuals for planning-expert training.
+
+8. 2026_arXiv_OE-VLA_Unveiling the Potential of Vision-Language-Action Models with Open-Ended Multimodal Instructions
+   [[arXiv]](https://arxiv.org/abs/2505.11214) — *Multimodal instructions.* Open-ended instruction formats; persistent policy update not explicit.
+
+9. 2026_arXiv_DexGraspVLA_DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping
+   [[arXiv]](https://arxiv.org/abs/2502.20900) — *Hierarchical control.* Learns diffusion controller under pretrained VLM.
+
+10. 2026_arXiv_OmniVTLA_OmniVTLA: Vision-Tactile-Language-Action Models with Semantic-Aligned Tactile Sensing
+   [[arXiv]](https://arxiv.org/abs/2508.08706) — *Tactile representation.* Tactile encoder training and multimodal action conditioning.
+
+11. 2026_arXiv_LLARVA_LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning
+   [[arXiv]](https://arxiv.org/abs/2406.11815) — *Instruction training.* Visual-trace instruction model training originally released in 2024.
+
+12. 2026_arXiv_ThinkAct_ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning
+   [[arXiv]](https://arxiv.org/abs/2507.16815) — *Embodied reasoning RL.* Trains high-level visual plans rather than direct motor-policy RL.
+
+13. 2026_arXiv_OTTER_OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction
+   [[arXiv]](https://arxiv.org/abs/2503.03734) — *Frozen visual encoder.* Policy learning with frozen pretrained VLM encoders.
+
+14. 2026_arXiv_Evo-0_Evo-0: Vision-Language-Action Model with Implicit Spatial Understanding
+   [[arXiv]](https://arxiv.org/abs/2507.00416) — *Geometry module.* Plug-and-play spatial features; post-training unconfirmed.
+
+15. 2026_arXiv_FLARE-Latent_FLARE: Robot Learning with Implicit World Modeling
+   [[arXiv]](https://arxiv.org/abs/2505.15659) — *Latent world modeling.* Future-latent alignment during imitation policy learning.
+
+16. 2026_arXiv_DreamVLA_DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge
+   [[arXiv]](https://arxiv.org/abs/2507.04447) — *World-knowledge model.* Joint future world prediction and action training.
+
+17. 2026_arXiv_GigaBrain-0_GigaBrain-0: A World Model-Powered Vision-Language-Action Model
+   [[arXiv]](https://arxiv.org/abs/2510.19430) — *Synthetic foundation data.* Foundation training with world-model-generated trajectories.
+
+18. 2026_arXiv_GeoVLA_GeoVLA: Empowering 3D Representations in Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2508.09071) — *3D representation.* Depth and 3D action-expert architecture.
+
+19. 2026_arXiv_RoboFlamingo-Plus_RoboFlamingo-Plus: Fusion of Depth and RGB Perception with Vision-Language Models for Enhanced Robotic Manipulation
+   [[arXiv]](https://arxiv.org/abs/2503.19510) — *Visual architecture.* RGB/depth feature adaptation; policy-update stage needs review.
+
+20. 2026_arXiv_OneTwoVLA_OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning
+   [[arXiv]](https://arxiv.org/abs/2505.11917) — *Reasoning co-training.* Synthesized reasoning and robot-data co-training.
+
+21. 2026_arXiv_World-Action-Agent_World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal
+   [[arXiv]](https://arxiv.org/abs/2609.29964) — *Action rehearsal.* Visual rehearsal plus trace-based smaller-VLM fine-tuning.
+
+22. 2026_arXiv_GR00T-N1_GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
+   [[arXiv]](https://arxiv.org/abs/2503.14734) — *Foundation policy.* Generalist VLA trained on mixed robot and human data.
+
+23. 2026_arXiv_π0.5_$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization
+   [[arXiv]](https://arxiv.org/abs/2504.16054) — *Foundation policy.* Heterogeneous co-training for open-world generalization.
+
+24. 2026_arXiv_SmolVLA_SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics
+   [[arXiv]](https://arxiv.org/abs/2506.01844) — *Efficient foundation VLA.* Compact model with inexpensive training and asynchronous inference.
+
+25. 2026_arXiv_FAST_FAST: Efficient Action Tokenization for Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2501.09747) — *Action representation.* DCT-based action tokenization for scalable VLA training.
+
+26. 2026_arXiv_π0.7_$π_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities
+   [[arXiv]](https://arxiv.org/abs/2604.15483) — *Foundation policy.* Steerable generalist robotic foundation model.
+
+27. 2026_arXiv_BRIDGE_Fine-tuning Behavioral Cloning Policies with Preference-Based Reinforcement Learning
+   [[arXiv]](https://arxiv.org/abs/2509.26605) — *Generic cross-regime RL.* ICLR 2026: offline BC and online preference RL in general control.
+
+28. 2026_arXiv_ORBIT_On-policy Reinforcement Fine-tuning with Offline reward for Multi-step Embodied Planning
+   [[arXiv]](https://aclanthology.org/2026.acl-long.1822/) — *Embodied planning.* ACL 2026: fine-tunes planning model, not direct VLA motor policy.
+
+### 8.2. Boundary and Adjacent Literature
+
+These studies inform the survey scope but are not counted as core VLA post-training algorithms when persistent motor-policy improvement is absent or unverified.
+
+1. 2026_arXiv_T2VLA_Trust Your Instincts: Confidence-Driven Test-Time RL for Vision-Language-Action Models
+   [[arXiv]](https://arxiv.org/abs/2606.29892) — Confidence-guided test-time policy update; cross-over with test-time methods.
+
+2. 2026_arXiv_VLA-Touch_VLA-Touch: Enhancing Vision-Language-Action Models with Dual-Level Tactile Feedback
+   [[arXiv]](https://arxiv.org/abs/2507.17294) — *Frozen-policy enhancement.* Explicitly avoids fine-tuning base VLA.
+
+3. 2026_arXiv_Rolling-WAM_Rolling-WAM: World Action Models with Rolling Imagination
+   [[arXiv]](https://arxiv.org/abs/2609.30247) — *Test-time inference.* Rolling denoising for fast planning; no persistent policy update.
+
 ## 9. Related Collections and Surveys
 
 ### 9.1. Community Collections
@@ -403,136 +608,6 @@ These are **curated repositories, not research papers**.
    [[arXiv]](https://arxiv.org/abs/2609.09250)
 
 The current collection emphasizes the **training regime × learning signal** view across supervised, preference-based, and reward-based policy improvement, while the surveys above take complementary ability-centric, architecture-centric, efficiency-centric, driving-centric, or verifier-centric perspectives.
-
-## October 2026 Literature Expansion — Primary-Source Checked
-
-This extension cross-checks candidate titles against their original arXiv abstract pages. **Core** entries are grouped by the dominant persistent policy-update mechanism. Fixed synthetic demonstrations are classified as offline data; interactive simulation requires policy-conditioned virtual rollouts. The full screening record and BibTeX keys are [available in the manuscript repository](https://github.com/jindongli-Ai/2026_Survey_Post-Training-for-Embodied-AI/blob/main/literature/verified_additions_2026-10.json).
-
-### Offline — Demonstration Fine-Tuning
-
-- **CLIP-RT** (2025, RSS): [Learning Language-Conditioned Robotic Policies from Natural Language Supervision](https://arxiv.org/abs/2411.00508). Offline imitation fine-tuning using natural-language motion supervision.
-- **DemoGen** (2025): [DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning](https://arxiv.org/abs/2502.16932). Fixed synthetic demonstration augmentation, not interactive simulator RL.
-- **InstructVLA** (2025): [InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation](https://arxiv.org/abs/2507.17520). Instruction tuning combines multimodal reasoning and action learning.
-- **RoboTron-Platter** (2025): [Boosting Robotic Manipulation Generalization with Minimal Costly Data](https://arxiv.org/abs/2503.19516). Stage-divided data mixing for VLA generalization.
-- **THAW-VLA** (2026): [Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies](https://arxiv.org/abs/2609.24682). Fixed-frame offline world-model feature alignment.
-- **VOTE** (2025): [VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting](https://arxiv.org/abs/2507.05116). Fine-tuning for faster action tokens; inference voting separate.
-- **PALM** (2026, CVPR): [PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2601.07060). Training with affordance and within-subtask progress cues.
-
-### Offline — Preference Optimization
-
-- **VTLA** (2025): [VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation](https://arxiv.org/abs/2505.09577). Direct preference optimization for tactile VLA insertion.
-
-### Offline — Offline RL
-
-- **ReinboT** (2025): [ReinboT: Amplifying Robot Visual-Language Manipulation with Reinforcement Learning](https://arxiv.org/abs/2505.07395). Offline return-aware policy optimization from mixed-quality data.
-
-### Real-World — Interactive Imitation
-
-- **RoboCopilot** (2025): [RoboCopilot: Human-in-the-loop Interactive Imitation Learning for Robot Manipulation](https://arxiv.org/abs/2503.07771). Human-autonomy switching for interactive imitation learning.
-- **VLA-Expert** (2025): [VLA Model-Expert Collaboration for Bi-directional Manipulation Learning](https://arxiv.org/abs/2503.04163). Expert-assisted collaboration and collected experience for refinement.
-
-### Real-World — Online RL
-
-- **Res-HIL** (2026): [Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation](https://arxiv.org/abs/2609.30023). Human-guided online residual RL on frozen imitation priors.
-
-### Simulation — Policy Distillation
-
-- **RPD** (2026, IROS): [Refined Policy Distillation: From VLA Generalists to RL Experts](https://arxiv.org/abs/2503.05833). On-policy simulated RL guided by a pretrained VLA teacher. *(Already listed earlier in this collection.)*
-
-### Simulation — Simulator RL
-
-- **RFTF** (2025): [RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback](https://arxiv.org/abs/2505.19767). Temporal value-model rewards for embodied RL fine-tuning.
-- **TGRPO** (2025): [Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization](https://arxiv.org/abs/2506.08440). Trajectory-grouped RL with dense task feedback on LIBERO.
-- **Action-Chunked-PPO** (2025): [VLA Model Post-Training via Action-Chunked PPO and Self Behavior Cloning](https://arxiv.org/abs/2509.25718). PPO and dynamically collected self demonstrations on MetaWorld.
-- **RL4VLA** (2025, NeurIPS): [What Can RL Bring to VLA Generalization? An Empirical Study](https://arxiv.org/abs/2505.19789). PPO fine-tuning recipe and generalization comparison.
-
-### Simulation — World-Model Rollouts
-
-- **WISE** (2026): [WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models](https://arxiv.org/abs/2609.03681). Bounded and scheduled imagined rollouts to refine policy outputs.
-
-### Cross-Regime — Offline-to-Online
-
-- **Q-Chunking** (2025, NeurIPS): [Reinforcement Learning with Action Chunking](https://arxiv.org/abs/2507.07969). Offline-to-online temporal-difference RL in chunked action spaces.
-
-### Supporting and Boundary Literature
-
-- **AMF** (2024): [Active Fine-Tuning of Multi-Task Policies](https://arxiv.org/abs/2410.05026). Active expert-demonstration selection; no physical loop assumed.
-- **ADC** (2025): [Adversarial Data Collection: Human-Collaborative Perturbations for Efficient and Robust Robotic Imitation Learning](https://arxiv.org/abs/2503.11646). Human-in-the-loop data construction without proof of policy-loop interaction.
-- **Robot-R1** (2025): [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://arxiv.org/abs/2506.00070). Embodied reasoning RL, not direct persistent VLA motor-policy training.
-
-The linked papers above were inspected at the abstract level. Full-text mechanism and experiment checks remain necessary before submission. This section does not treat every paper in a broader VLA collection as a post-training policy-update method.
-
----
-
-### Further 2026 Methods — Real-World RL and Virtual Experience
-
-Additional source-screened papers emphasizing real-robot online RL, simulated policy improvement, and structured rewards. World-Env was already listed elsewhere in this repository and is cross-referenced here for its mechanism.
-
-- **BEE** (2026): [BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models](https://arxiv.org/abs/2609.27450). Residual RL under human-correction consistency constraints.
-- **StructRL** (2026): [StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks](https://arxiv.org/abs/2609.36352). Simulated online RL with prerequisite-aware subtask rewards.
-- **World-Env** (2025): [World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training](https://arxiv.org/abs/2509.24948). Video-world simulator with VLM progress and termination feedback.
-- **RL-Token** (2026): [RL Token: Bootstrapping Online RL with Vision-Language-Action Models](https://arxiv.org/abs/2604.23073). Real-robot actor-critic refinement using pretrained VLA features.
-- **VLA-Precision** (2026): [VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models](https://arxiv.org/abs/2609.04355). Intervention and preference-calibrated online RL for precise manipulation.
-- **Uncertainty-Gated-RL** (2026): [Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy](https://arxiv.org/abs/2609.28838). Exploration noise regulation; no gain over behavior cloning in tested budget.
-
-**Related test-time boundary (not counted as core post-training):**
-
-- **T2VLA** (2026): [Trust Your Instincts: Confidence-Driven Test-Time RL for Vision-Language-Action Models](https://arxiv.org/abs/2606.29892). Confidence-guided test-time policy update; cross-over with test-time methods.
-
-
-
-## October 30, 2026 Literature Expansion — Source-Checked at Abstract Level
-
-This increment adds **40 distinct paper records**: 16 core post-training candidates, 22 foundational/supporting studies and 2 boundary studies. Titles and links have been checked against primary arXiv landing pages or official ACL proceedings. **These are abstract-level checks, not yet full-paper mechanism validation**; supporting/boundary papers are not counted as core algorithms.
-
-### Core Post-Training Candidates
-
-- **OBEYED-VLA (2025)**: [Clutter-Robust Vision-Language-Action Models through Object-Centric and Geometry Grounding](https://arxiv.org/abs/2512.22519). *Offline / Demonstration.* Pretrained VLA fine-tuned on grounded single-object demonstrations.
-- **ChatVLA (2025)**: [ChatVLA: Unified Multimodal Understanding and Robot Control with Vision-Language-Action Model](https://arxiv.org/abs/2502.14420). *Offline / Demonstration.* Phased alignment of multimodal understanding and robot control.
-- **ChatVLA-2 (2025)**: [ChatVLA-2: Vision-Language-Action Model with Open-World Embodied Reasoning from Pretrained Knowledge](https://arxiv.org/abs/2505.21906). *Offline / Demonstration.* Two-stage reasoning and action training.
-- **InSpire (2025)**: [InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning](https://arxiv.org/abs/2505.13888). *Offline / Demonstration.* Spatial direction and action supervision.
-- **VLAS (2025)**: [VLAS: Vision-Language-Action Model With Speech Instructions For Customized Robot Manipulation](https://arxiv.org/abs/2502.13508). *Offline / Demonstration.* Speech-instruction and robot-action tuning.
-- **ForceVLA (2025)**: [ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation](https://arxiv.org/abs/2505.22159). *Offline / Demonstration.* Force-conditioned action-model adaptation.
-- **3D-CAVLA (2025)**: [3D CAVLA: Leveraging Depth and 3D Context to Generalize Vision Language Action Models for Unseen Tasks](https://arxiv.org/abs/2505.05800). *Offline / Demonstration.* Depth-augmented VLA fine-tuning.
-- **CronusVLA (2025)**: [CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling](https://arxiv.org/abs/2506.19816). *Offline / Demonstration.* Multi-frame post-training after single-frame pretraining.
-- **SpatialVLA (2025)**: [SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model](https://arxiv.org/abs/2501.15830). *Offline / Demonstration.* Adaptive action-grid fine-tuning.
-- **HAMSTER (2025)**: [HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation](https://arxiv.org/abs/2502.05485). *Offline / Demonstration.* VLM trajectory prediction fine-tuning for hierarchical robot control.
-- **DexVLA (2025)**: [DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control](https://arxiv.org/abs/2502.05855). *Offline / Demonstration.* Embodiment alignment followed by task post-training.
-- **Phoenix (2025)**: [Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction](https://arxiv.org/abs/2504.14588). *Real-World / Continual.* Motion-based correction with interaction-driven lifelong learning.
-- **Xiaomi-Robotics-1 (2026)**: [Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330). *Offline / Demonstration.* Explicit post-training for embodiment and instruction alignment.
-- **LLaVA-VLA (2026)**: [Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline](https://arxiv.org/abs/2602.22663). *Offline / Demonstration.* Two-stage post-training and fine-tuning on CEBench.
-- **PAIR-VLA (2026)**: [What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models](https://arxiv.org/abs/2605.13105). *Simulation / Reward.* PPO robustness fine-tuning with visual invariance and sensitivity.
-- **Spatial Traces (2025)**: [Spatial Traces: Enhancing VLA Models with Spatial-Temporal Understanding](https://arxiv.org/abs/2508.09032). *Offline / Demonstration.* Spatial-temporal adaptation with limited training data.
-
-### Foundation and Supporting Literature
-
-- **ManualVLA (2025)**: [ManualVLA: A Unified VLA Model for Chain-of-Thought Manual Generation and Robotic Manipulation](https://arxiv.org/abs/2512.02013). *Planning / Synthetic.* Synthetic manuals for planning-expert training.
-- **OE-VLA (2025)**: [Unveiling the Potential of Vision-Language-Action Models with Open-Ended Multimodal Instructions](https://arxiv.org/abs/2505.11214). *Multimodal instructions.* Open-ended instruction formats; persistent policy update not explicit.
-- **DexGraspVLA (2025)**: [DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping](https://arxiv.org/abs/2502.20900). *Hierarchical control.* Learns diffusion controller under pretrained VLM.
-- **OmniVTLA (2025)**: [OmniVTLA: Vision-Tactile-Language-Action Models with Semantic-Aligned Tactile Sensing](https://arxiv.org/abs/2508.08706). *Tactile representation.* Tactile encoder training and multimodal action conditioning.
-- **LLARVA (2024)**: [LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning](https://arxiv.org/abs/2406.11815). *Instruction training.* Visual-trace instruction model training originally released in 2024.
-- **ThinkAct (2025)**: [ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning](https://arxiv.org/abs/2507.16815). *Embodied reasoning RL.* Trains high-level visual plans rather than direct motor-policy RL.
-- **OTTER (2025)**: [OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction](https://arxiv.org/abs/2503.03734). *Frozen visual encoder.* Policy learning with frozen pretrained VLM encoders.
-- **Evo-0 (2025)**: [Evo-0: Vision-Language-Action Model with Implicit Spatial Understanding](https://arxiv.org/abs/2507.00416). *Geometry module.* Plug-and-play spatial features; post-training unconfirmed.
-- **FLARE-Latent (2025)**: [FLARE: Robot Learning with Implicit World Modeling](https://arxiv.org/abs/2505.15659). *Latent world modeling.* Future-latent alignment during imitation policy learning.
-- **DreamVLA (2025)**: [DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge](https://arxiv.org/abs/2507.04447). *World-knowledge model.* Joint future world prediction and action training.
-- **GigaBrain-0 (2025)**: [GigaBrain-0: A World Model-Powered Vision-Language-Action Model](https://arxiv.org/abs/2510.19430). *Synthetic foundation data.* Foundation training with world-model-generated trajectories.
-- **GeoVLA (2025)**: [GeoVLA: Empowering 3D Representations in Vision-Language-Action Models](https://arxiv.org/abs/2508.09071). *3D representation.* Depth and 3D action-expert architecture.
-- **RoboFlamingo-Plus (2025)**: [RoboFlamingo-Plus: Fusion of Depth and RGB Perception with Vision-Language Models for Enhanced Robotic Manipulation](https://arxiv.org/abs/2503.19510). *Visual architecture.* RGB/depth feature adaptation; policy-update stage needs review.
-- **OneTwoVLA (2025)**: [OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning](https://arxiv.org/abs/2505.11917). *Reasoning co-training.* Synthesized reasoning and robot-data co-training.
-- **World Action Agent (2026)**: [World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal](https://arxiv.org/abs/2609.29964). *Action rehearsal.* Visual rehearsal plus trace-based smaller-VLM fine-tuning.
-- **GR00T N1 (2025)**: [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734). *Foundation policy.* Generalist VLA trained on mixed robot and human data.
-- **π0.5 (2025)**: [$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization](https://arxiv.org/abs/2504.16054). *Foundation policy.* Heterogeneous co-training for open-world generalization.
-- **SmolVLA (2025)**: [SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844). *Efficient foundation VLA.* Compact model with inexpensive training and asynchronous inference.
-- **FAST (2025)**: [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747). *Action representation.* DCT-based action tokenization for scalable VLA training.
-- **π0.7 (2026)**: [$π_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities](https://arxiv.org/abs/2604.15483). *Foundation policy.* Steerable generalist robotic foundation model.
-- **BRIDGE (2025)**: [Fine-tuning Behavioral Cloning Policies with Preference-Based Reinforcement Learning](https://arxiv.org/abs/2509.26605). *Generic cross-regime RL.* ICLR 2026: offline BC and online preference RL in general control.
-- **ORBIT (2026)**: [On-policy Reinforcement Fine-tuning with Offline reward for Multi-step Embodied Planning](https://aclanthology.org/2026.acl-long.1822/). *Embodied planning.* ACL 2026: fine-tunes planning model, not direct VLA motor policy.
-
-### Boundary Literature (Not Core Post-Training)
-
-- **VLA-Touch (2025)**: [VLA-Touch: Enhancing Vision-Language-Action Models with Dual-Level Tactile Feedback](https://arxiv.org/abs/2507.17294). *Frozen-policy enhancement.* Explicitly avoids fine-tuning base VLA.
-- **Rolling-WAM (2026)**: [Rolling-WAM: World Action Models with Rolling Imagination](https://arxiv.org/abs/2609.30247). *Test-time inference.* Rolling denoising for fast planning; no persistent policy update.
 
 ## 10. Contributing and Citation
 
