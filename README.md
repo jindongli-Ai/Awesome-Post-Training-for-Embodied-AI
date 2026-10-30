@@ -19,7 +19,6 @@ A curated collection of papers, methods, and benchmarks on **post-training and p
 - [7. Benchmarks and Evaluation](#7-benchmarks-and-evaluation)
 - [8. Open Challenges](#8-open-challenges)
 - [9. Related Collections and Surveys](#9-related-collections-and-surveys)
-- [October 2026 Literature Expansion](#october-2026-literature-expansion--primary-source-checked)
 - [10. Contributing and Citation](#10-contributing-and-citation)
 
 ## 1. Scope and Definitions
