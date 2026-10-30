@@ -1,6 +1,6 @@
 # Literature Screening Queue (as of 2026-10-29)
 
-This is a **candidate-only queue** containing 79 distinct arXiv-linked 2025–2026 works from [AoqunJin/Awesome-VLA-Post-Training](https://github.com/AoqunJin/Awesome-VLA-Post-Training) not already present in our paper's arXiv-linked reference collection or existing Awesome list.
+This is the **original discovery queue** containing 79 distinct arXiv-linked 2025–2026 works from [AoqunJin/Awesome-VLA-Post-Training](https://github.com/AoqunJin/Awesome-VLA-Post-Training) not already present in our paper's arXiv-linked reference collection or existing Awesome list.
 
 **Important:** These works have not all been verified as post-training methods. Many involve pretraining, model architecture, new sensors, inference-time adaptations, action representation, or datasets. Inclusion here **does not** mean inclusion in the paper's strict Training Paradigm × Learning Signal taxonomy. Each candidate still needs abstract/full-text screening, year/title correction if required, and duplicate detection.
 
@@ -127,4 +127,4 @@ This is a **candidate-only queue** containing 79 distinct arXiv-linked 2025–20
 - Is the major innovation the cross-regime transfer, or just an ordinary training sequence?
 - Is the paper actually a VLA policy-update study rather than reasoning-only or inference-time steering?
 
-Entries move to the verified literature only after screening against the source paper; raw candidate counts are never presented as reviewed core-method counts.
+Some entries were subsequently promoted to the abstract-level source-checked October 30 expansion in the main README. This raw candidate queue is retained for discovery provenance, **not an additive count**. Only full-text-validated methods should be treated as finally classified core papers.
